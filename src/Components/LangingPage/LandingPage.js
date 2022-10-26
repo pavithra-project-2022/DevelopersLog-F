@@ -149,7 +149,7 @@ const LandingPage = () => {
 
                       <h1>Sign in</h1>
                     </div>
-                    <div className="col-12 text-center mb-4">
+                    {/* <div className="col-12 text-center mb-4">
                       <a
                         className="btn btn-lg btn-outline-secondary btn-block"
                         href="#"
@@ -164,7 +164,7 @@ const LandingPage = () => {
                         </span>
                       </a>
                       <span className="dividers text-muted mt-4">OR</span>
-                    </div>
+                    </div> */}
                     <div className="col-12">
                       <div className="mb-2">
                         <label className="form-label">Email address</label>
