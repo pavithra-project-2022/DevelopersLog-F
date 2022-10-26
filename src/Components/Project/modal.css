@@ -1,0 +1,78 @@
+.modalData ::placeholder{
+  font-weight: 500;
+  color: black !important;
+}
+
+/* .modalLogin {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  
+   
+  }
+ 
+
+  .modalContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+   
+
+  }
+ 
+  .modalForm {
+    width: 450px;
+    height: 600px;
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(250, 247, 247);
+    border: 1px solid black;
+    margin-right: 500px;
+  }
+  .modalh3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+ }
+
+    .modalInput {
+      height: 250px ;
+      width: 380px !important;
+      border: none;
+      border-radius: 5px;
+      background-color:rgb(223, 222, 222);
+      color: black;
+      margin:5px;
+    
+    }
+
+    
+    .modalButton {
+      height: 40px;
+      border-radius: 5px;
+      background-color: #228522;
+      color: white;
+      border: none;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      margin: 10px;
+    }
+.cancel{
+  background-color: gray;
+}
+     
+  */
