@@ -495,7 +495,7 @@ const Project = () => {
                       </table>
                       <div className="pagination text-center">
                         {/* <div className="row pag"> */}
-                        <div className="col-4 pagination">
+                        <div className="col-3 pagination">
                           <span>
                             Page{" "}
                             <strong>
@@ -503,7 +503,7 @@ const Project = () => {
                             </strong>
                           </span>
                           </div>
-                          <div className="col-4 pagination">
+                          <div className="col-3 pagination">
                           <span>
                              Go to page:{" "}
                             <input
@@ -518,6 +518,8 @@ const Project = () => {
                               style={{ width: "50px" }}
                             />
                           </span>
+                          </div>
+                          <div className="col-3 pagination">
                           <select
                             value={pageSize}
                             onChange={(e) =>
@@ -531,7 +533,7 @@ const Project = () => {
                             ))}
                           </select>
                         </div>
-                        <div className="col-4 pagination">
+                        <div className="col-3 pagination">
                           <button
                             onClick={() => gotoPage(0)}
                             disabled={!canPreviousPage}
