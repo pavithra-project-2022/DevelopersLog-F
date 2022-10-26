@@ -495,15 +495,17 @@ const Project = () => {
                       </table>
                       <div className="pagination text-center">
                         {/* <div className="row pag"> */}
-                        <div className="col-6 pagination">
+                        <div className="col-4 pagination">
                           <span>
                             Page{" "}
                             <strong>
                               {pageIndex + 1} of {pageOptions.length}
                             </strong>
                           </span>
+                          </div>
+                          <div className="col-4 pagination">
                           <span>
-                            | Go to page:{" "}
+                             Go to page:{" "}
                             <input
                               type="number"
                               defaultValue={pageIndex + 1}
@@ -529,7 +531,7 @@ const Project = () => {
                             ))}
                           </select>
                         </div>
-                        <div className="col-6 pagination">
+                        <div className="col-4 pagination">
                           <button
                             onClick={() => gotoPage(0)}
                             disabled={!canPreviousPage}
