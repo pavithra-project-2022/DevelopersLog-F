@@ -211,7 +211,7 @@ const Project = () => {
   const [userData, setUserData] = useState([]);
   useEffect(() => {
     async function fetchData() {
-      let users = await axios.get(`http://localhost:8000/api/projectType`);
+      let users = await axios.get(`https://developerslog.herokuapp.com/api/projectType`);
       setUserData(users.data);
     }
     fetchData();
@@ -221,7 +221,7 @@ const Project = () => {
   const [userData1, setUserData1] = useState([]);
   useEffect(() => {
     async function fetchData() {
-      let users = await axios.get(`http://localhost:8000/api/projectLocation`);
+      let users = await axios.get(`https://developerslog.herokuapp.com/api/projectLocation`);
       setUserData1(users.data);
     }
     fetchData();
